@@ -136,3 +136,96 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+
+/* Mobile styling less than 65em wide (breaking nav and main/side content layout) */
+@media screen and (max-width: 65em) {
+
+    /* Header Section */
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 20vw;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header li {
+        font-size: 5vw;
+        line-height: 10vw;
+    }
+
+    /* Main Content Section */
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .content > div {
+        height: auto;
+        width: 100%;
+    }
+
+    /* Side Content Section */
+    .benefits {
+        margin: 0;
+        clear: initial;
+        float: initial;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .benefits > div {
+        flex: 0 0 200px;
+    }
+}
+
+/* Mobile styling less than 50em wide (breaking main img content) */
+@media screen and (max-width: 50em) {
+    .content img {
+        display: block;
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+
+    .content h2 {
+        text-align: center;
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits h3 {
+        text-align: left;
+        display: inline-block;
+    }
+
+    .benefits > div {
+        flex: 0 0 10em;
+        overflow: hidden;
+    }
+
+    .benefits img {
+        float: left;
+        position: relative;
+        top: -35px;
+        margin: 0;
+    }
+
+    .benefits > div:last-child {
+        margin-bottom: 0;
+    }
+}
