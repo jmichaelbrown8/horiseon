@@ -7,4 +7,14 @@ The purpose of the assignment was to refactor a website to make it more accessib
 
 As extra credit, I also made the styling more responsive for narrower screens using media queries and flexbox.
 
-<img src="./screenshots/desktop.jpg" width="300px" style="vertical-align: top; padding-right: 20px;"><img src="./screenshots/tablet.jpg" width="200px" style="vertical-align: top; padding-right: 20px;"><img src="./screenshots/mobile.jpg" width="100px" style="vertical-align: top;">
+### Desktop
+
+<img src="./screenshots/desktop.jpg" width="300px" title="Desktop" alt="Desktop View"> 
+
+### Tablet
+
+<img src="./screenshots/tablet.jpg" width="200px" title="Tablet" alt="Tablet View"> 
+
+### Mobile
+
+<img src="./screenshots/mobile.jpg" width="100px" title="Mobile" alt="Mobile View">
